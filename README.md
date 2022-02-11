@@ -1,11 +1,14 @@
 # Introduction
 
+Built using [cdk8s](https://cdk8s.io/).
+
 This defines a deployment for [Yearn API](https://github.com/yearn/yearn-api) using kubernetes.
 
 This was build to compare and contrast the against the [cdk version](https://github.com/yearn/yearn-api-infra).
 
 ## Prerequisite
 
+- Install [cdk8s](https://cdk8s.io/)
 - Install [minikube](https://minikube.sigs.k8s.io/docs/start/) 
 - Install the [nginx ingress controller](https://kubernetes.github.io/ingress-nginx/deploy/#environment-specific-instructions)
 - Build a local version of [yearn api](https://github.com/yearn/yearn-api): `docker build -t yearn-api:dev .`
